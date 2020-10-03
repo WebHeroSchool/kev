@@ -1,6 +1,6 @@
-*{
+/*{
   border: dashed 1px red;
-}
+}*/
 body {
   position: relative;
   display: block;
@@ -9,19 +9,38 @@ body {
 .wrapper{
   width: 80%;
   margin: auto;
-  border: dashed 1px red;
 }
 .header {
  display: flex;
  justify-content: space-between;
 }
 .logo {
-  padding: 40px 0;
-  font-family: PT Serif;
-  font-size: 24px;
-  font-style: normal;
-  font color: black;
+   position: relative;
+   left: 50px;
+   padding: 40px 0;
+   padding-left: 44px;
+   font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
   }
+.logo__circle {
+   transform: translateY(-50%);
+   position: absolute;
+   left: 0;
+   top: 50%;
+   width: 28px;
+   height: 28px;
+   border-radius: 50%;
+}
+.logo__circle_color_blue {
+ background: #C8DBFB;
+ left: 8px;
+ top: 56%;
+ opacity: 0.7;
+}
+.logo__circle_color_dark-blue {
+ background: #0056EC;
+ opacity: 0.7;
+}
+
 .menu {
   padding: 40px 0;
   display: flex;
@@ -78,9 +97,10 @@ body {
   line-height: 26px;
 }
 .main-content__button {
+
+  height: 57px;
   background-color: #0056EC;
   font-family: 'Roboto Mono', monospace;
-  font-style: bold;
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
