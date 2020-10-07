@@ -2,7 +2,7 @@
   font-family: 'Roboto';
   src: url('Roboto-Regular.eot');
   src: url('Roboto-Regular.eot?#iefix')
-    format('embedded-opentype'),
+  format('embedded-opentype'),
     url('Roboto-Regular.woff2') format('woff2'),
     url('Roboto-Regular.woff') format('woff'),
     url('Roboto-Regular.ttf') format('truetype'),
@@ -16,7 +16,7 @@
   font-family: 'PT Serif';
   src: url('PTSerif-Regular.eot');
   src: url('PTSerif-Regular.eot?#iefix') 
-    format('embedded-opentype'),
+  format('embedded-opentype'),
     url('PTSerif-Regular.woff2') format('woff2'),
     url('PTSerif-Regular.woff') format('woff'),
     url('PTSerif-Regular.ttf') format('truetype'),
@@ -38,9 +38,9 @@ body {
 }
 
 .header {
-   display: flex;
-   justify-content: space-between;
-   margin-bottom: 100px;
+ display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .logo {
@@ -63,53 +63,52 @@ body {
 
 .logo__circle_color_blue {
 
-    background: #c8dbfb;
+  background: #c8dbfb;
   left: 8px;
-    top: 56%;
-    opacity: .7;
+  top: 56%;
+  opacity: .7;
 }
 
 .logo__circle_color_dark-blue {
-	background: #0056ec;
-
-    opacity: .7;
+  background: #0056ec;
+  opacity: .7;
 }
 
 .menu {
-    padding: 40px 0;
-    display: flex;
-    align-items: center;
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
 }
 
 .menu__item {
-    position: relative;
+  position: relative;
   margin-right: 26px;
   font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
   color: #000;
-    text-decoration: none;
-    transition: opacity .5s;
+  text-decoration: none;
+  transition: opacity .5s;
 }
 
 .menu__item::after {
-    position: absolute;
-    left: 0;
-    display: block;
+  position: absolute;
+  left: 0;
+  display: block;
   content: '';
-    width: 0;
+  width: 0;
   height: 3px;
-    background: #0056EC;
-    opacity: 0;
+  background: #0056EC;
+  opacity: 0;
   transition: opacity .5s, width .5s;
 }
 
 .menu__item::hover {
-    opacity: .7;
+  opacity: .7;
 }
 
 .menu__item:hover::after,
 .menu__item_active::after {
-    opacity: 1;
-    width: 100%;
+  opacity: 1;
+  width: 100%;
 }
 
 .menu__item:last-child {
@@ -117,38 +116,37 @@ body {
 }
 
 .main {
-    padding: 0 63% 100px 0;
-    background: top right no-repeat url(mainImg.svg);
+  padding: 0 63% 100px 0;
+  background: top right no-repeat url(mainImg.svg);
 }
 
 .main__title {
-    margin: 0 0 40px 0;
-    font: bold 50px/65px PT Serif, arial, helvetica, sans-serif;
+  margin: 0 0 40px 0;
+  font: bold 50px/65px PT Serif, arial, helvetica, sans-serif;
 }
 
 .main__title-text_highlight {
-    background: #ecf3ff;
+  background: #ecf3ff;
 }
 
 .main__subtitle {
-
-    margin: 0 0 41px 0;
-    font: 18px/21px Roboto, arial, helvetica, sans-serif;
+  margin: 0 0 41px 0;
+  font: 18px/21px Roboto, arial, helvetica, sans-serif;
 }
 
 .main__button {
-    display: inline-block;
-    font: 14px/16px Roboto, arial, helvetica, sans-serif;
-    color: #fff;
-    background: #0056EC;
-    padding: 14px 16px;
-    text-decoration: none;
-    border-radius: 4px;
-    transition: opacity .5;
+  display: inline-block;
+  font: 14px/16px Roboto, arial, helvetica, sans-serif;
+  color: #fff;
+  background: #0056EC;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: opacity .5;
 }
 
-.main__button:hover {
-    opacity: .5;
+.main__button::hover {
+  opacity: .5;
 }
 
 @media (max-width: 768px) {
@@ -161,27 +159,27 @@ body {
         display: none;
     }
 
-    .menu-btn {
+  .menu-btn {
 
-        display: block;
-        width: 50px;
-        height: 50px;
-        background-color: #fff;
-        border-radius: 50%;
-        position: relative;
-    }
+      display: block;
+      width: 50px;
+      height: 50px;
+      background-color: #fff;
+      border-radius: 50%;
+      position: relative;
+  }
 
     .menu-btn span,
     .menu-btn span::before,
     .menu-btn span::after {
-        position: absolute;
-        top: 50%;
-        margin-top: -1px;
-        left: 50%;
-        margin-left: -10px;
-        width: 20px;
-        height: 2px;
-        background-color: #222;
+      position: absolute;
+      top: 50%;
+      margin-top: -1px;
+      left: 50%;
+      margin-left: -10px;
+      width: 20px;
+      height: 2px;
+      background-color: #222;
     }
 
     .menu-btn span::before,
@@ -240,15 +238,14 @@ body {
 @media (max-width: 1060px) {
 
     .header {
-	    
-        margin-bottom: 28px;
+      margin-bottom: 28px;
     }
 
     .main {
-        text-align: center;
-        padding: 50% 0 0;
-        background-size: 50%;
-        background-position: top center;
+      text-align: center;
+      padding: 50% 0 0;
+      background-size: 50%;
+      background-position: top center;
     }
 
     .main__title {
