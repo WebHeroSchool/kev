@@ -1,7 +1,8 @@
 @font-face {
     font-family: 'Roboto';
     src: url('Roboto-Regular.eot');
-    src: url('Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+    src: url('Roboto-Regular.eot?#iefix')
+    format('embedded-opentype'),
         url('Roboto-Regular.woff2') format('woff2'),
         url('Roboto-Regular.woff') format('woff'),
         url('Roboto-Regular.ttf') format('truetype'),
@@ -43,7 +44,7 @@ body {
 
 .logo {
     position: relative;
-    left: 0px;
+    left: 0;
     padding: 40px 0;
     padding-left: 44px;
     font: bold 24px/31px PT Serif, arial, helvetica, sans-serif;
@@ -60,6 +61,7 @@ body {
 }
 
 .logo__circle_color_blue {
+
     background: #C8DBFB;
     left: 8px;
     top: 56%;
@@ -67,8 +69,9 @@ body {
 }
 
 .logo__circle_color_dark-blue {
-    background: #0056EC;
-    opacity: 0.7;
+	background: #0056EC;
+
+    opacity: .7;
 }
 
 .menu {
@@ -87,6 +90,7 @@ body {
 }
 
 .menu__item:after {
+
     position: absolute;
     left: 0;
     display: block;
@@ -123,10 +127,11 @@ body {
 }
 
 .main__title-text_highlight {
-    background: #ECF3FF;
+    background: #ecf3ff;
 }
 
 .main__subtitle {
+
     margin: 0 0 41px 0;
     font: 18px/21px Roboto, arial, helvetica, sans-serif;
 }
@@ -139,7 +144,7 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     border-radius: 4px;
-    transition: opacity .5s;
+    transition: opacity .5;
 }
 
 .main__button:hover {
@@ -147,6 +152,7 @@ body {
 }
 
 @media (max-width: 768px) {
+
     .logo__title {
         display: none;
     }
@@ -156,6 +162,7 @@ body {
     }
 
     .menu-btn {
+
         display: block;
         width: 50px;
         height: 50px;
@@ -231,6 +238,7 @@ body {
 }
 
 @media (max-width: 1060px) {
+	
     .header {
         margin-bottom: 28px;
     }
