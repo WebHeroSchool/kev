@@ -2,7 +2,7 @@
   font-family: 'Roboto';
   src: url('Roboto-Regular.eot');
   src: url('Roboto-Regular.eot?#iefix')
-  format('embedded-opentype'),
+    format('embedded-opentype'),
     url('Roboto-Regular.woff2') format('woff2'),
     url('Roboto-Regular.woff') format('woff'),
     url('Roboto-Regular.ttf') format('truetype'),
@@ -15,7 +15,8 @@
 @font-face {
   font-family: 'PT Serif';
   src: url('PTSerif-Regular.eot');
-  src: url('PTSerif-Regular.eot?#iefix') format('embedded-opentype'),
+  src: url('PTSerif-Regular.eot?#iefix') 
+    format('embedded-opentype'),
     url('PTSerif-Regular.woff2') format('woff2'),
     url('PTSerif-Regular.woff') format('woff'),
     url('PTSerif-Regular.ttf') format('truetype'),
@@ -32,7 +33,7 @@ body {
 }
 
 .wrapper {
-   width: 80%;
+  width: 80%;
    margin: auto;
 }
 
@@ -45,27 +46,27 @@ body {
 .logo {
     position: relative;
     left: 0;
-    padding: 40px 0;
+  padding: 40px 0;
     padding-left: 44px;
   font: bold 24px/31px PT Serif, arial, helvetica, sans-serif;
 }
 
 .logo__circle {
-    transform: translateY(-50%);
+  transform: translateY(-50%);
     position: absolute;
     left: 0;
     top: 50%;
   width: 28px;
   height: 28px;
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .logo__circle_color_blue {
 
     background: #c8dbfb;
-    left: 8px;
+  left: 8px;
     top: 56%;
-    opacity: 0.7;
+    opacity: .7;
 }
 
 .logo__circle_color_dark-blue {
@@ -82,15 +83,14 @@ body {
 
 .menu__item {
     position: relative;
-    margin-right: 26px;
-    font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
-    color: #000;
+  margin-right: 26px;
+  font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+  color: #000;
     text-decoration: none;
     transition: opacity .5s;
 }
 
 .menu__item::after {
-
     position: absolute;
     left: 0;
     display: block;
@@ -99,15 +99,15 @@ body {
   height: 3px;
     background: #0056EC;
     opacity: 0;
-    transition: opacity .5s, width .5s;
+  transition: opacity .5s, width .5s;
 }
 
 .menu__item::hover {
     opacity: .7;
 }
 
-.menu__item:hover:after,
-.menu__item_active:after {
+.menu__item:hover::after,
+.menu__item_active::after {
     opacity: 1;
     width: 100%;
 }
@@ -155,7 +155,7 @@ body {
 
     .logo__title {
         display: none;
-    }
+  }
 
     .menu__item {
         display: none;
@@ -199,13 +199,13 @@ body {
         transform: translateY(5px);
     }
 
-    .menu-btn_active span:before {
+    .menu-btn_active span::before {
         transform: rotate(-35deg);
         width: 10px;
         transform-origin: left bottom;
     }
 
-    .menu-btn_active span:after {
+    .menu-btn_active span::after {
         transform: rotate(35deg);
         width: 10px;
         transform-origin: left top;
@@ -240,6 +240,7 @@ body {
 @media (max-width: 1060px) {
 
     .header {
+	    
         margin-bottom: 28px;
     }
 
