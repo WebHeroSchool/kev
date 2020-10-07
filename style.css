@@ -41,11 +41,11 @@ body {
   margin: auto;
 }
 
-.header {
- display: flex;
- justify-content: space-between;
- margin-bottom: 100px;
-}
+  .header {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 100px;
+  }
 
 .logo {
   position: relative;
@@ -74,7 +74,7 @@ body {
 
 .logo__circle_color_dark-blue {
   background: #0056ec;
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .menu {
@@ -158,8 +158,8 @@ body {
   }
 
   .menu__item {
-    display: none;
-    }
+  display: none;
+  }
 
   .menu-btn {
     display: block;
@@ -191,12 +191,12 @@ body {
    }
 
   .menu-btn span::before {
-     transform: translateY(-5px);
-   }
+    transform: translateY(-5px);
+  }
 
   .menu-btn span::after {
-     transform: translateY(5px);
-   }
+    transform: translateY(5px);
+  }
 
   .menu-btn_active span::before {
     transform: rotate(-35deg);
@@ -204,55 +204,53 @@ body {
     transform-origin: left bottom;
    }
 
-   .menu-btn_active span::after {
-     transform: rotate(35deg);
-     width: 10px;
-     transform-origin: left top;
-   }
+  .menu-btn_active span::after {
+    transform: rotate(35deg);
+    width: 10px;
+    transform-origin: left top;
+  }
 
-   .header {
-     margin-bottom: 28px;
-   }
+  .header {
+    margin-bottom: 28px;
+  }
 
-   .main {
-     text-align: center;
-     padding: 74% 0 0;
-     background-size: 74%;
-     background-position: top center;
-   }
+  .main {
+    text-align: center;
+    padding: 74% 0 0;
+    background-size: 74%;
+    background-position: top center;
+  }
 
    .main__title {
      margin-bottom: 44px;
      font: bold 30px/39px PT Serif, arial, helvetica, sans-serif;
    }
 
-   .main__subtitle {
-     margin-bottom: 25px;
-     font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
-   }
+  .main__subtitle {
+    margin-bottom: 25px;
+    font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
+  }
 
-   .main__button {
-     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
-   }
+  .main__button {
+    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+  }
 }
 
 @media (max-width: 1060px) {
 
-    .header {
-      margin-bottom: 28px;
-    }
+  .header { margin-bottom: 28px; }
 
-    .main {
-      text-align: center;
-      padding: 50% 0 0;
-      background-size: 50%;
-      background-position: top center;
-    }
+  .main {
+    text-align: center;
+    padding: 50% 0 0;
+    background-size: 50%;
+    background-position: top center;
+  }
 
-    .main__title {
-        margin-bottom: 44px;
-        font: bold 30px/39px PT Serif, arial, helvetica, sans-serif;
-    }
+  .main__title {
+    margin-bottom: 44px;
+    font: bold 30px/39px PT Serif, arial, helvetica, sans-serif;
+  }
 
     .main__subtitle {
         margin-bottom: 25px;
