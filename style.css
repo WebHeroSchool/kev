@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Roboto';
-  src: url('Roboto-Regular.eot');
   
+  src: url('Roboto-Regular.eot');
   src: url('Roboto-Regular.eot?#iefix') format('embedded-opentype'),
     url('Roboto-Regular.woff2') format('woff2'),
     url('Roboto-Regular.woff') format('woff'),
@@ -14,8 +14,8 @@
 
 @font-face {
   font-family: 'PT Serif';
-  src: url('PTSerif-Regular.eot');
   
+  src: url('PTSerif-Regular.eot');
   src: url('PTSerif-Regular.eot?#iefix') format('embedded-opentype'),
     url('PTSerif-Regular.woff2') format('woff2'),
     url('PTSerif-Regular.woff') format('woff'),
@@ -198,7 +198,7 @@ body {
     transform: rotate(-35deg);
     width: 10px;
     transform-origin: left bottom;
-   }
+  }
 
   .menu-btn_active span::after {
     transform: rotate(35deg);
