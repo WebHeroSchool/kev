@@ -1,29 +1,3 @@
-@font-face {
-  font-family: 'Roboto';
-  src:url('Roboto-Regular.eot');
-  src:url('Roboto-Regular.eot?#iefix') format('embedded-opentype'),
-    url('Roboto-Regular.woff2') format('woff2'),
-    url('Roboto-Regular.woff') format('woff'),
-    url('Roboto-Regular.ttf') format('truetype'),
-    url('Roboto-Regular.svg#Roboto-Regular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'PT Serif';
-  src:url('PTSerif-Regular.eot');
-  src:url('PTSerif-Regular.eot?#iefix') format('embedded-opentype'),
-    url('PTSerif-Regular.woff2') format('woff2'),
-    url('PTSerif-Regular.woff') format('woff'),
-    url('PTSerif-Regular.ttf') format('truetype'),
-    url('PTSerif-Regular.svg#PTSerif-Regular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
 body {
   position: relative;
   display: block;
@@ -46,7 +20,7 @@ body {
   left: 0;
   padding: 40px 0;
   padding-left: 44px;
-  font: bold 24px/31px PT Serif, arial, helvetica, sans-serif;
+  font: bold 24px/31px 'PT Serif', arial, helvetica, sans-serif;
 }
 
 .logo__circle {
@@ -80,7 +54,7 @@ body {
 .menu__item {
   position: relative;
   margin-right: 26px;
-  font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+  font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
   transition: opacity 0.5s;
@@ -119,7 +93,7 @@ body {
 
 .main__title {
   margin: 0 0 40px 0;
-  font: bold 50px/65px PT Serif, arial, helvetica, sans-serif;
+  font: bold 50px/65px 'PT Serif', arial, helvetica, sans-serif;
 }
 
 .main__title-text_highlight {
@@ -128,12 +102,12 @@ body {
 
 .main__subtitle {
   margin: 0 0 41px 0;
-  font: 18px/21px Roboto, arial, helvetica, sans-serif;
+  font: 18px/21px 'Roboto', arial, helvetica, sans-serif;
 }
 
 .main__button {
   display: inline-block;
-  font: 14px/16px Roboto, arial, helvetica, sans-serif;
+  font: 14px/16px 'Roboto', arial, helvetica, sans-serif;
   color: #fff;
   background: #0056ec;
   padding: 14px 16px;
@@ -217,16 +191,16 @@ body {
 
   .main__title {
     margin-bottom: 44px;
-    font: bold 30px/39px PT Serif, arial, helvetica, sans-serif;
+    font: bold 30px/39px 'PT Serif', arial, helvetica, sans-serif;
   }
 
   .main__subtitle {
     margin-bottom: 25px;
-    font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
+    font: 500 16px/19px 'Roboto', arial, helvetica, sans-serif;
   }
 
   .main__button {
-    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+    font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
   }
 }
 
@@ -243,15 +217,15 @@ body {
 
   .main__title {
     margin-bottom: 44px;
-    font: bold 30px/39px PT Serif, arial, helvetica, sans-serif;
+    font: bold 30px/39px 'PT Serif', arial, helvetica, sans-serif;
   }
 
   .main__subtitle {
     margin-bottom: 25px;
-    font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
+    font: 500 16px/19px 'Roboto', arial, helvetica, sans-serif;
   }
 
   .main__button {
-    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+    font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
   }
 }
