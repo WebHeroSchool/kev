@@ -1,8 +1,7 @@
 @font-face {
   font-family: 'PT Serif';
   src: 
-    url('PTSerif-Bold.eot');
-    url('PTSerif-Bold.eot?#iefix') format('embedded-opentype'),
+    url('PTSerif-Bold.eot') format('embedded-opentype'),
     url('PTSerif-Bold.woff2') format('woff2'),
     url('PTSerif-Bold.woff') format('woff'),
     url('PTSerif-Bold.ttf') format('truetype');
@@ -14,8 +13,7 @@
 @font-face {
   font-family: 'PT Serif';
   src: 
-    url('PTSerif-Regular.eot');
-    url('PTSerif-Regular.eot?#iefix') format('embedded-opentype'),
+    url('PTSerif-Regular.eot') format('embedded-opentype'),
     url('PTSerif-Regular.woff2') format('woff2'),
     url('PTSerif-Regular.woff') format('woff'),
     url('PTSerif-Regular.ttf') format('truetype');
@@ -27,8 +25,7 @@
 @font-face {
   font-family: 'Roboto';
   src: 
-    url('Roboto-Bold.eot');
-    url('Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+    url('Roboto-Bold.eot') format('embedded-opentype'),
     url('Roboto-Bold.woff2') format('woff2'),
     url('Roboto-Bold.woff') format('woff'),
     url('Roboto-Bold.ttf') format('truetype');
@@ -40,8 +37,7 @@
 @font-face {
   font-family: 'Roboto';
   src: 
-    url('Roboto-Regular.eot');
-    url('Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+    url('Roboto-Regular.eot') format('embedded-opentype'),
     url('Roboto-Regular.woff2') format('woff2'),
     url('Roboto-Regular.woff') format('woff'),
     url('Roboto-Regular.ttf') format('truetype');
