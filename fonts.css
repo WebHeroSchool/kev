@@ -12,7 +12,7 @@
 
 @font-face {
   font-family: 'PT Serif';
-  src: 
+  src:
     url('PTSerif-Regular.eot') format('embedded-opentype'),
     url('PTSerif-Regular.woff2') format('woff2'),
     url('PTSerif-Regular.woff') format('woff'),
@@ -24,7 +24,7 @@
 
 @font-face {
   font-family: 'Roboto';
-  src: 
+  src:
     url('Roboto-Bold.eot') format('embedded-opentype'),
     url('Roboto-Bold.woff2') format('woff2'),
     url('Roboto-Bold.woff') format('woff'),
@@ -36,7 +36,7 @@
 
 @font-face {
   font-family: 'Roboto';
-  src: 
+  src:
     url('Roboto-Regular.eot') format('embedded-opentype'),
     url('Roboto-Regular.woff2') format('woff2'),
     url('Roboto-Regular.woff') format('woff'),
