@@ -1,7 +1,8 @@
 @font-face {
   font-family: 'PT Serif';
-  src: url('PTSerif-Bold.eot');
-  src: 
+  src:
+    url('PTSerif-Bold.eot');
+  src:
     url('PTSerif-Bold.eot?#iefix') format('embedded-opentype'),
     url('PTSerif-Bold.woff2') format('woff2'),
     url('PTSerif-Bold.woff') format('woff'),
