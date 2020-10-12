@@ -85,7 +85,6 @@ body {
 
 .main {
   padding: 0 63% 100px 0;
-  background: top right no-repeat url(mainImg.svg);
 }
 
 .main__title {
@@ -135,7 +134,9 @@ body {
     margin-right: 21px;
     font: bold 18px/20px 'Roboto', arial, helvetica, sans-serif;
   }
-
+  .main {
+    background: top right no-repeat url(mainImg-1920.svg);
+  }
   .main__title {
     font: bold 66px/86px 'PT Serif', arial, helvetica, sans-serif;
     position: relative;
@@ -151,9 +152,103 @@ body {
   }
 
   .main__button {
-
+  font: 600 19px/25px 'Roboto', arial, helvetica, sans-serif;
+  position: relative;
+  top: -3px;
+  left: 4px;
   }
+
 }
+
+@media (max-width:1366px){
+
+  .logo {
+    left: 4px;
+    top: -25px;
+  }
+
+  .menu {
+    position: relative;
+    left: 116px;
+    top: -27px;
+  }
+
+  .menu__item {
+    margin-right: 21px;
+    font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
+  }
+  .main {
+    background: top right no-repeat url(mainImg-1366.svg);
+  }
+  .main__title {
+    font: bold 50px/66px 'PT Serif', arial, helvetica, sans-serif;
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+
+  .main__subtitle {
+    font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
+    position: relative;
+    left: 4px;
+    top: 58px;
+    margin: 0 0 106px 0;
+  }
+
+  .main__button {
+  font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
+  position: relative;
+  top: -3px;
+  left: 4px;
+  margin-bottom: 100px;
+  }
+
+}
+
+@media (max-width: 1024px) {
+
+  .logo {
+    left: 4px;
+    top: -25px;
+  }
+
+  .menu {
+    position: relative;
+    left: 116px;
+    top: -27px;
+  }
+
+  .menu__item {
+    margin-right: 21px;
+    font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
+  }
+
+  .main {
+    background: top right no-repeat url(mainImg-1024.svg);
+  }
+
+  .main__title {
+    font: bold 50px/66px 'PT Serif', arial, helvetica, sans-serif;
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+
+  .main__subtitle {
+    font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
+    position: relative;
+    left: 4px;
+    top: 58px;
+    margin: 0 0 106px 0;
+  }
+
+  .main__button {
+    font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
+    position: relative;
+    top: -3px;
+    left: 4px;
+    margin-bottom: 100px;
+  }
 
 @media (max-width: 865px) {
   .menu {
@@ -224,6 +319,7 @@ body {
     padding: 74% 0 0;
     background-size: 74%;
     background-position: top center;
+    background: top right no-repeat url(mainImg-mobile.svg);
   }
 
   .main__title {
@@ -233,36 +329,10 @@ body {
 
   .main__subtitle {
     margin-bottom: 25px;
-    font: 500 16px/19px 'Roboto', arial, helvetica, sans-serif;
+    font: medium 16px/19px 'Roboto', arial, helvetica, sans-serif;
   }
 
   .main__button {
-    font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
-  }
-}
-
-@media (max-width: 1060px) {
-
-  .header { margin-bottom: 28px; }
-
-  .main {
-    text-align: center;
-    padding: 50% 0 0;
-    background-size: 50%;
-    background-position: top center;
-  }
-
-  .main__title {
-    margin-bottom: 44px;
-    font: bold 30px/39px 'PT Serif', arial, helvetica, sans-serif;
-  }
-
-  .main__subtitle {
-    margin-bottom: 25px;
-    font: 500 16px/19px 'Roboto', arial, helvetica, sans-serif;
-  }
-
-  .main__button {
-    font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
+    font: medium 14px/16px 'Roboto', arial, helvetica, sans-serif;
   }
 }
