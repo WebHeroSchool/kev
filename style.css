@@ -118,6 +118,31 @@ body {
 .main__button:hover {
   opacity: 0.5;
 }
+@media (max-width: 1920px) {
+  .logo {
+    left: 4px;
+    top: -25px;
+  }
+  .menu {
+    position: relative;
+    left: 30px;
+    top: 7px;
+  }
+
+  main__title {
+    font: bold 66px/86px 'PT Serif', arial, helvetica, sans-serif;
+    position: relative;
+    top: 57px;
+    left: 2px;
+  }
+  .main__subtitle {
+    font: 22px/25px 'Roboto', arial, helvetica, sans-serif;
+    position: relative;
+    left: 4px;
+    top: 58px;
+  }
+
+}
 
 @media (max-width: 865px) {
   .menu {
