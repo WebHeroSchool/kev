@@ -119,29 +119,40 @@ body {
   opacity: 0.5;
 }
 @media (max-width: 1920px) {
+
   .logo {
     left: 4px;
     top: -25px;
   }
+
   .menu {
     position: relative;
-    left: 30px;
-    top: 7px;
+    left: 116px;
+    top: -27px;
   }
 
-  main__title {
+  .menu__item {
+    margin-right: 21px;
+    font: bold 18px/20px 'Roboto', arial, helvetica, sans-serif;
+  }
+
+  .main__title {
     font: bold 66px/86px 'PT Serif', arial, helvetica, sans-serif;
     position: relative;
-    top: 57px;
-    left: 2px;
+    top: 63px;
   }
+
   .main__subtitle {
     font: 22px/25px 'Roboto', arial, helvetica, sans-serif;
     position: relative;
     left: 4px;
     top: 58px;
+    margin: 0 0 106px 0;
   }
 
+  .main__button {
+
+  }
 }
 
 @media (max-width: 865px) {
