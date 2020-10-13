@@ -164,6 +164,9 @@ body {
 
 @media (max-width: 1366px){
 
+  .header {
+    margin-bottom: 0;
+  }
   .logo {
     left: 81px;
     top: -24px;
@@ -180,7 +183,7 @@ body {
     font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
   }
   .main {
-    background: top -45px right 83px no-repeat url(mainImg-1366.svg);
+    background: top 33px right 83px no-repeat url(mainImg-1366.svg);
   }
   .main__title {
     font: bold 50px/66px 'PT Serif', arial, helvetica, sans-serif;
@@ -208,6 +211,9 @@ body {
 }
 
 @media (max-width: 1024px) {
+  .header {
+    margin-bottom: 0;
+  }
 
   .wrapper {
     width: 100%;
@@ -230,13 +236,13 @@ body {
   }
 
   .main {
-    background: top 35% right 9% no-repeat url(mainImg-1024.svg);
+    background: top 20% right 9% no-repeat url(mainImg-1024.svg);
   }
 
   .main__title {
     font: bold 50px/65px 'PT Serif', arial, helvetica, sans-serif;
     position: relative;
-    top: 38px;
+    top: -42px;
     left: 44px;
   }
 
@@ -244,15 +250,15 @@ body {
     font: 502 18px/21px 'Roboto', arial, helvetica, sans-serif;
     position: relative;
     left: 46px;
-    top: 36px;
+    top: -46px;
     margin: 0 0 106px 0;
   }
 
   .main__button {
     font: 501 14px/15px 'Roboto', arial, helvetica, sans-serif;
     position: relative;
-    top: -28px;
-    left: 44px;
+    top: -110px;
+    left: 45px;
     margin-bottom: 100px;
   }
 
@@ -280,25 +286,26 @@ body {
 
   .main {
     background: top 35% right 9% no-repeat url(mainImg-1024.svg);
+    background-size: 50%;
   }
 
   .main__title {
-    font: bold 50px/65px 'PT Serif', arial, helvetica, sans-serif;
+    font: bold 38px/50px 'PT Serif', arial, helvetica, sans-serif;
     position: relative;
-    top: 38px;
+    top: -10px;
     left: 44px;
   }
 
   .main__subtitle {
-    font: 502 18px/21px 'Roboto', arial, helvetica, sans-serif;
+    font: 500 14px/17px 'Roboto', arial, helvetica, sans-serif;
     position: relative;
     left: 46px;
-    top: 36px;
-    margin: 0 0 106px 0;
+    top: -28px;
+    margin: 0 0 25px 0;
   }
 
   .main__button {
-    font: 501 14px/15px 'Roboto', arial, helvetica, sans-serif;
+    font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
     position: relative;
     top: -28px;
     left: 44px;
@@ -371,24 +378,30 @@ body {
     }
 
     .main {
-      text-align: center;
-      background: top -31% right 49% no-repeat url(mainImg-mobile.png);
+      background: top 29% right 6% no-repeat url(mainImg-mobile.png);
+      padding: 25% 0;
     }
 
     .main__title {
       font: bold 30px/40px 'PT Serif', arial, helvetica, sans-serif;
       position: absolute;
-      left: 20%;
-      top: 51%;
+      left: 6%;
+      top: 31%;
     }
 
     .main__subtitle {
-      margin-bottom: 25px;
-      font: medium 16px/19px 'Roboto', arial, helvetica, sans-serif;
+      display: none;
     }
 
-    .main__button {
+  .main__subtitle-mobile {
       font: medium 14px/16px 'Roboto', arial, helvetica, sans-serif;
+    }
+
+  .main__button {
+    font: medium 14px/16px 'Roboto', arial, helvetica, sans-serif;
+    position: absolute;
+    top: 73%;
+    left: 5%;
     }
   }
 
@@ -456,26 +469,33 @@ body {
     margin-bottom: 28px;
   }
 
+  .logo {
+    left: 26px;
+    top: -30px;
+
   .main {
     text-align: center;
-    background: top -31% right 49% no-repeat url(mainImg-mobile.svg);
+    background: top -95% right 49% no-repeat url(mainImg-mobile.png);
   }
 
   .main__title {
     font: bold 30px/40px 'PT Serif', arial, helvetica, sans-serif;
     position: absolute;
     left: 20%;
-    top: 51%;
+    top: 68%;
   }
 
   .main__subtitle-mobile {
-    font: medium 16px/19px 'Roboto', arial, helvetica, sans-serif;
+    font: medium 15px/11px 'Roboto', arial, helvetica, sans-serif;
+    position: absolute;
+    top: 97%;
+    left: 19%;
   }
 
   .main__button {
-    font: 500 14px/13px 'Roboto', arial, helvetica, sans-serif;
+    font: 500 15px/13px 'Roboto', arial, helvetica, sans-serif;
     position: relative;
-    top: 74px;
+    top: 324px;
     left: 0px;
     margin-bottom: 100px;
   }
