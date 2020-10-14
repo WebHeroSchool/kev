@@ -122,6 +122,9 @@ body {
 
 @media (max-width: 1920px) {
 
+  .hamburger-menu{
+    display: none;
+  }
   .logo {
     left: 4px;
     top: -25px;
@@ -172,6 +175,10 @@ body {
     top: -24px;
   }
 
+  .hamburger-menu {
+    display: none;
+  }
+
   .menu {
     position: relative;
     left: 43px;
@@ -217,6 +224,10 @@ body {
 
   .wrapper {
     width: 100%;
+  }
+
+  .hamburger-menu {
+    display: none;
   }
 
   .logo {
@@ -313,7 +324,7 @@ body {
     margin-bottom: 100px;
   }
 
-@media (max-width: 375px) {
+@media (min-width: 375px) {
   .header {
     margin-bottom: 28px;
   }
