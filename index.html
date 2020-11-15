@@ -5,7 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="fonts.css">
-	<title>First page</title>
+	<link rel="stylesheet" href="fontello.css">
+	<title>App creation</title>
+	<script src="jquery-3.5.1.min.js"></script>
 </head>
 <body>
 	<div class="wrapper">
@@ -23,27 +25,38 @@
 				<a href="#" class="menu-btn"><span></span></a>
 			</nav>
 			<div class="hamburger-menu">
-        <input id="menu__toggle" type="checkbox" />
-    		<label class="menu__btn" for="menu__toggle">
-        <span></span>
-        </label>
+				<button class="hamburger-menu__btn">
+					<i class="icon-menu"></i>
+				</button>
         <ul class="menu__box">
           <li><a class="menu__item" href="#">start</a></li>
-			    <li><a class="menu__item" href="#">services</a></li>
-			    <li><a class="menu__item" href="#">about</a></li>
-			    <li><a class="menu__item" href="#">blog</a></li>
-			    <li><a class="menu__item" href="#">contact us</a></li>
+		  <li><a class="menu__item" href="#">services</a></li>
+		  <li><a class="menu__item" href="#">about</a></li>
+		  <li><a class="menu__item" href="#">blog</a></li>
+		  <li><a class="menu__item" href="#">contact us</a></li>
         </ul>
       </div>
 		</header>
 		<section class="main">
+			<div class="main-bg"><img src="mainImg-mobile.png" alt=""></div>
 			<h1 class="main__title">Building an App <br><span class="main__title-text_highlight">Without Design <br>Expertise?</span></h1>
 			<p class="main__subtitle">I help tech startups design better digital<br> products without hiring a full-time designer</p>
 			<p class="main__subtitle-mobile">I help tech startups design better<br> digital products without hiring a <br>full-time designer</p>
-
 			<a class="main__button" href="#">Schedule free consultation</a>
 		</section>
 	</div>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script>
+		$(document).ready(function () {
+		var menuBtn =$('.hamburger-menu__btn');
+		var menu = $('menu__box');
+			menuBtn.on('click', function(event) {
+				event.preventDefault();
+				menu.toggleClass('menu__box__active');
+			})
+
+		});
+	</script>
 </body>
 
 </html>
